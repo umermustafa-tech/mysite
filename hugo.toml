@@ -2,3 +2,9 @@ baseURL = "http://localhost:1313/"
 languageCode = "en-us"
 title = "Umer's Hugo Site"
 theme = "ananke"
+
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.164.0"
